@@ -1,0 +1,46 @@
+.lastnews {
+    display: flex;
+    justify-content: space-between;
+    background-color: #555;
+    color: #f0f0f0;
+}
+
+.GeneralNew {
+    display: flex;
+    flex-basis: 30%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lastsNews .GeneralNew a {
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.GeneralNew h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.lastsNews {
+    flex-basis: 65%;
+}
+
+.lastsNews a {
+    text-decoration: none;
+}
+
+
+.news_item {
+    margin-bottom: 15px;
+}
+
+.news_item h2 {
+    font-size: 18px;
+}
+
+.news_item p {
+    font-size: 16px;
+}

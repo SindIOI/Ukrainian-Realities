@@ -1,0 +1,44 @@
+body {
+    background-color: #ededed;
+}
+
+/* ================= */
+/* ==== BAR ======== */
+.bar {
+    background-color: white;
+}
+
+.bar .oneBar {
+    display: flexbox;
+    background-color: #7e0019;
+    color: white;
+    padding: 18px;
+}
+
+.bar .oneBar a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.bar .twoBar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.bar .twoBar a {
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+}
+
+.bar .twoBar a :hover {
+    color: rgb(134, 133, 133);
+    text-decoration: underline;
+}
+/* ================= */
+.news-container a{
+    text-decoration: none;
+    color: white;
+}
